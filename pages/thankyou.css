@@ -4,7 +4,29 @@
   box-sizing: border-box;
 }
 
-h1 {
+:root {
+  --background: rgb(24, 24, 24);
+  --second-background: rgb(21, 21, 21);
+}
+
+body {
+  background-color: var(--background);
+  color: white;
   text-align: center;
-  color: red;
+  margin: 15% auto;
+  font-family: "Poppins";
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0.4em;
+}
+
+h2 {
+  background: linear-gradient(to right, #6cff52, #3ec5ff);
+  color: var(--background);
+  width: 20%;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  border-radius: 0.5em;
 }
