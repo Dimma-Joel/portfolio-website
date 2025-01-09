@@ -564,12 +564,19 @@ footer {
 }
 
 @media (max-width: 600px) {
+  #home img {
+    width: 60vh;
+  }
+  #menu {
+    display: block;
+  }
+
   #projects {
     margin: -6em -2em;
   }
 
   #projects h1 {
-    font-size: 1em;
+    font-size: 3em;
     margin-bottom: 0.5em;
   }
 
@@ -578,7 +585,13 @@ footer {
   }
 
   .project-tools {
-    display: block;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+  }
+
+  .project-tools button {
+    padding: 0.8em 2.5em;
   }
 
   #contact {
