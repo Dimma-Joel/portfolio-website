@@ -564,6 +564,9 @@ footer {
 }
 
 @media (max-width: 600px) {
+  #home {
+    width: 100%;
+  }
   #home img {
     width: 20vh;
   }
