@@ -13,7 +13,7 @@
 }
 
 body {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   background-color: var(--background);
 }
 
@@ -92,7 +92,7 @@ span {
 }
 
 section {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   padding: 5% 15%;
 }
 
@@ -523,7 +523,7 @@ footer {
   }
 }
 
-@media (max-width: 968px) {
+@media (max-width: 768px) {
   #home h1 {
     font-size: 2.5em;
   }
@@ -560,5 +560,36 @@ footer {
     flex-direction: column;
     gap: 5em;
     align-items: baseline;
+  }
+}
+
+@media (max-width: 600px) {
+  #projects {
+    margin: -6em -2em;
+  }
+
+  #projects h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+  }
+
+  .projects-container {
+    display: block;
+  }
+
+  #contact {
+    margin: -5em -4em;
+  }
+
+  footer {
+    align-items: center;
+  }
+
+  .col-right {
+    width: 60%;
+  }
+
+  #about img {
+    width: 100%;
   }
 }
