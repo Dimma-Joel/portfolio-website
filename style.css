@@ -565,7 +565,7 @@ footer {
 
 @media (max-width: 600px) {
   #home img {
-    width: 60vh;
+    width: 15vh;
   }
   #menu {
     display: block;
