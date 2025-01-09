@@ -69,6 +69,11 @@ nav ul a:hover {
   transition: 0.3s ease-in-out;
 }
 
+button {
+  background-color: var(--background);
+  color: white;
+}
+
 .btn:hover {
   background-color: white;
   color: var(--background);
@@ -101,8 +106,8 @@ section {
 }
 
 #home img {
-  width: 18vw;
-  border-radius: 50%;
+  width: 17vw;
+  border-radius: 48%;
   margin-top: 4em;
 }
 

@@ -28,22 +28,21 @@
     </nav>
 
     <section id="home">
-      <img src="img/Profile  pic.jpg" alt="" />
+      <img src="img/dimma9.jpg" alt="Dimma's Image" />
 
       <div class="info-box">
         <h1><span>Hello, I'm Dimma</span></h1>
         <h3>I'm a creative <span>Web developer</span></h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-          aperiam dolor, illo eos officiis ratione ab veritatis assumenda
-          molestiae facilis dicta id eligendi non perspiciatis, eum incidunt
-          voluptatem cum ea.
+          Web development isn’t just a job; it’s my craft. I build robust,
+          scalable solutions tailored to your needs, ensuring every project
+          delivers lasting value. Your dream website is just a project away.
         </p>
       </div>
 
       <div class="btn-box">
-        <div class="btn">Hire</div>
-        <div class="btn">Contact</div>
+        <a href="#contact" class="btn">Hire</a>
+        <a href="#contact" class="btn">Contact</a>
       </div>
     </section>
 
@@ -52,10 +51,12 @@
         <div class="about-info">
           <h1><span>About Me</span></h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
-            provident perferendis quasi deserunt, voluptas impedit, odio soluta
-            explicabo fuga nihil quos, sed maxime atque quaerat cumque non
-            adipisci sint accusamus.
+            I’m a web developer who loves turning ideas into simple, beautiful,
+            and user-friendly websites. With modern web tools and clean code, I
+            create solutions that look great and work perfectly. Whether it’s
+            designing a website’s look or building its features, I focus on
+            delivering quality that meets the needs of businesses and users
+            alike. Let’s bring your vision to life.
           </p>
         </div>
 
@@ -88,7 +89,7 @@
         </div>
       </div>
 
-      <img src="img/Profile  pic.jpg" alt="Dimma's Picture'" />
+      <img src="img/dimma9.jpg" alt="Dimma's Picture'" />
     </section>
 
     <section id="services">
@@ -96,39 +97,39 @@
 
       <div class="services-container">
         <div class="box">
-          <h1><span>Web Design</span></h1>
+          <h1><span>Frontend Development</span></h1>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque iure
-            debitis cum, quaerat aspernatur earum aliquid enim delectus
-            distinctio omnis corrupti, quisquam tenetur ea hic magni neque nemo
-            consequatur provident!
+            I leverage HTML, CSS, JavaScript, React, Taiilwind and Git to create
+            user-friendly and responsive websites that are a joy to interact
+            with and I'm always exploring the latest web technologies to deliver
+            cutting-edge solutions.
           </p>
           <img src="img/web-design.jpg" alt="" />
         </div>
 
         <div class="box">
-          <h1><span>Web Development</span></h1>
+          <h1><span>Backend Development</span></h1>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque iure
-            debitis cum, quaerat aspernatur earum aliquid enim delectus
-            distinctio omnis corrupti, quisquam tenetur ea hic magni neque nemo
-            consequatur provident!
+            On the Back-End, I focus on the server-side logic, databases, and
+            API integrations that power your website. I use the latest
+            technologies like Node.JS, MongoDB to build secure, scalable, and
+            efficient solutions.
           </p>
           <img src="img/web-dev.jpg" alt="" />
         </div>
 
         <div class="box">
-          <h1><span>Graphic Design</span></h1>
+          <h1><span>SEO Integration</span></h1>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque iure
-            debitis cum, quaerat aspernatur earum aliquid enim delectus
-            distinctio omnis corrupti, quisquam tenetur ea hic magni neque nemo
-            consequatur provident!
+            I prioritize SEO to ensure your website is optimized for search
+            engines. I apply SEO best practices throughout the development
+            process, focusing on both technical SEO and on-page SEO to boost
+            your site's visibility and ranking.
           </p>
-          <img src="img/graphic.jpg" alt="" />
+          <img src="img/seo.webp" alt="" />
         </div>
       </div>
     </section>
@@ -137,7 +138,7 @@
       <h1 class="header"><span>Projects</span></h1>
 
       <div class="projects-container">
-        <div class="work-one">
+        <div class="first-project">
           <img src="" alt="" />
         </div>
       </div>
@@ -146,23 +147,33 @@
     <section id="contact">
       <h1 class="header"><span>Contact</span></h1>
 
-      <form action="#">
+      <form action="https://formsubmit.co/dimmajoel@gmail.com" method="POST">
         <div class="input-box">
           <span>Full Name</span>
-          <input type="text" placeholder="Enter Your Full Name" />
+          <input type="text" placeholder="Enter Your Full Name" recquired />
         </div>
 
         <div class="input-box">
           <span>Full Email</span>
-          <input type="text" placeholder="Enter Your Email" />
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter Your Email"
+            required
+          />
+          <input
+            type="hidden"
+            name="_next"
+            value="https://portfolio-website-six-bice-55.vercel.app/pages/thankyou.html"
+          />
         </div>
 
         <div class="input-box">
           <span>Your Message</span>
-          <input type="text" placeholder="Enter Your Message" />
+          <input type="text" placeholder="Enter Your Message" recquired />
         </div>
 
-        <div class="btn">Submit</div>
+        <button class="btn" type="submit">Submit</button>
       </form>
     </section>
 
@@ -170,7 +181,9 @@
       <div class="col-left">
         <div class="col-box">
           <span><i class="bx bxs-location-plus"></i></span>
-          <span>1234 Maple Street Springfield, IL 26374</span>
+          <a href="https://portfolio-website-six-bice-55.vercel.app/"
+            ><span>Portfolio Website</span></a
+          >
         </div>
 
         <div class="col-box">
@@ -187,20 +200,31 @@
       <div class="col-right">
         <span>About My Services</span>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci
-          temporibus dignissimos sapiente sed soluta mollitia, placeat cum
-          labore sint assumenda magnam quam ullam error, perspiciatis, ad quas
-          fugit voluptate! Est.
+          I specialize in full-stack web development, creating responsive
+          interfaces with React and Tailwind and building secure, scalable
+          back-end systems to deliver seamless and efficient web solutions.
+          Let's bring your vision to life!
         </p>
 
         <div class="social-icons">
-          <span><i class="bx bxl-linkedin-square"></i></span>
+          <a
+            href="https://www.linkedin.com/in/dimma-joel-technology-front-end-developer-technical-writer/"
+          >
+            <span><i class="bx bxl-linkedin-square"></i></span
+          ></a>
 
-          <span><i class="bx bxl-twitter"></i></span>
+          <a href="https://x.com/devdimma"
+            ><span><i class="bx bxl-twitter"></i></span
+          ></a>
 
-          <span><i class="bx bxl-instagram-alt"></i></span>
+          <a
+            href="https://www.instagram.com/dimma_joel?igsh=MXE4eDQ1eDRzY2ZyZg=="
+            ><span><i class="bx bxl-instagram-alt"></i></span
+          ></a>
 
-          <span><i class="bx bxl-github"></i></span>
+          <a href="https://github.com/Dimma-Joel">
+            <span><i class="bx bxl-github"></i></span
+          ></a>
         </div>
       </div>
     </footer>
