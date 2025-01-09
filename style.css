@@ -577,6 +577,10 @@ footer {
     display: block;
   }
 
+  .project-tools {
+    display: block;
+  }
+
   #contact {
     margin: -5em -4em;
   }
