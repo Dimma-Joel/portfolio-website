@@ -563,13 +563,13 @@ footer {
   }
 }
 
-@media (min-width: 567px) and (max-width: 600px) {
+@media (max-width: 600px) {
   #projects {
     margin: -6em -2em;
   }
 
   #projects h1 {
-    font-size: 3em;
+    font-size: 1em;
     margin-bottom: 0.5em;
   }
 
