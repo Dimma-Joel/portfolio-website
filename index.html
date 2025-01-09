@@ -150,7 +150,12 @@
       <form action="https://formsubmit.co/dimmajoel@gmail.com" method="POST">
         <div class="input-box">
           <span>Full Name</span>
-          <input type="text" placeholder="Enter Your Full Name" recquired />
+          <input
+            type="text"
+            name="name"
+            placeholder="Enter Your Full Name"
+            recquired
+          />
         </div>
 
         <div class="input-box">
@@ -170,7 +175,14 @@
 
         <div class="input-box">
           <span>Your Message</span>
-          <input type="text" placeholder="Enter Your Message" recquired />
+          <input
+            type="text"
+            name="message"
+            placeholder="Enter Your Message"
+            recquired
+          />
+
+          <input type="hidden" name="_template" value="table" />
         </div>
 
         <button class="btn" type="submit">Submit</button>
